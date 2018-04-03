@@ -1,1 +1,1 @@
-# Projet-ING2-th-orie-des-graphes
+Projet 2 ING 2 Théorie des graphes
