@@ -1,0 +1,20 @@
+9
+10
+loup
+renard
+lievre
+castor
+ours
+Elan
+Rongeur
+Insecte
+vegetation
+0 1 1 1 0 0 0 0 0
+0 0 0 1 0 0 1 0 0
+0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 1
+0 0 0 0 0 1 0 0 1
+0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 0
