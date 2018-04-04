@@ -1,0 +1,20 @@
+9
+10
+0 loup 100 100 200 loup.jpg
+1 renard 100 130 200 renard.jpg
+2 castor 100 160 200 castor.jpg
+3 lievre 100 190 200 lievre.bjpg
+4 ours 100 210 200 ours.jpg
+5 elan 100 240 200 elan.jpg
+6 rongeur 100 270 200 rongeur.jpg
+7 insecte 100 300 200 insecte.jpg
+8 vegetation 100 330 200 vegetation.jpg
+0 1 1 1 0 0 0 0 0 
+0 0 0 1 0 0 1 0 0
+0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 1
+0 0 0 0 0 1 0 0 1
+0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 0
