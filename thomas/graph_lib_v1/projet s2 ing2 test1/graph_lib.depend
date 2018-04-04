@@ -1,0 +1,142 @@
+# depslib dependency file v1.0
+1522703174 source:c:\users\thomas\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1522703174 c:\users\thomas\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1522703174 source:c:\users\thomas\desktop\graph_lib_v1\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+
+1522703174 c:\users\thomas\desktop\graph_lib_v1\graph_lib_exemple_graph\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522703174 c:\users\thomas\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522703174 c:\users\thomas\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1522703174 c:\users\thomas\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522703174 source:c:\users\thomas\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522703174 source:c:\users\thomas\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1522703174 source:c:\users\thomas\desktop\graph_lib_v1\graph_lib_exemple_graph\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1522862381 source:c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\graph.cpp
+	"graph.h"
+	<fstream>
+	"sommet.h"
+
+1522857977 c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"Menu.h"
+	"grman/grman.h"
+
+1522703174 c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522703174 c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\grman\grman_couleurs.h
+
+1522703174 c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\grman\coords.h
+	<cmath>
+
+1522703174 c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522703174 source:c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\grman\coords.cpp
+	"coords.h"
+
+1522703174 source:c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522703174 source:c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\grman\widget.cpp
+	"widget.h"
+
+1522860536 source:c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"sommet.h"
+	"graph.h"
+	<allegro.h>
+
+1522767438 source:c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\sommet.cpp
+	"sommet.h"
+
+1522767558 c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\sommet.h
+	<iostream>
+
+1522796447 source:c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\src\menu.cpp
+
+1522796452 c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\include\menu.h
+
+1522833696 source:c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\menu2.cpp
+	"menu2.h"
+	"graph.h"
+	<allegro.h>
+
+1522838935 c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\menu2.h
+	<alleggl.h>
+
+1522856972 source:c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\menu.cpp
+	<allegro.h>
+	"Menu.h"
+	<iostream>
+
+1522855707 c:\users\thomas\desktop\graph_lib_v1\projet s2 ing2 test1\menu.h
+	<allegro.h>
+
