@@ -1,10 +1,11 @@
 # depslib dependency file v1.0
-1522863451 source:c:\users\invite\desktop\projet_trophic\codes exemples\graph_lib_exemple_graph\graph.cpp
+1522942054 source:c:\users\invite\desktop\projet_trophic\codes exemples\graph_lib_exemple_graph\graph.cpp
 	"graph.h"
 	"Sommet.h"
 	<fstream>
+	<allegro.h>
 
-1522920878 c:\users\invite\desktop\projet_trophic\codes exemples\graph_lib_exemple_graph\graph.h
+1522939666 c:\users\invite\desktop\projet_trophic\codes exemples\graph_lib_exemple_graph\graph.h
 	<vector>
 	<map>
 	<string>
@@ -23,7 +24,7 @@
 1522575424 c:\users\invite\desktop\projet_trophic\codes exemples\graph_lib_exemple_graph\grman\coords.h
 	<cmath>
 
-1522636616 c:\users\invite\desktop\projet_trophic\codes exemples\graph_lib_exemple_graph\grman\widget.h
+1522941728 c:\users\invite\desktop\projet_trophic\codes exemples\graph_lib_exemple_graph\grman\widget.h
 	"grman.h"
 	<iostream>
 	<string>
@@ -34,7 +35,7 @@
 1522575069 source:c:\users\invite\desktop\projet_trophic\codes exemples\graph_lib_exemple_graph\grman\coords.cpp
 	"coords.h"
 
-1522786800 source:c:\users\invite\desktop\projet_trophic\codes exemples\graph_lib_exemple_graph\grman\grman.cpp
+1522941762 source:c:\users\invite\desktop\projet_trophic\codes exemples\graph_lib_exemple_graph\grman\grman.cpp
 	<cmath>
 	<unordered_map>
 	<unordered_set>
@@ -48,12 +49,13 @@
 	<loadpng.h>
 	<jpgalleg.h>
 
-1522636919 source:c:\users\invite\desktop\projet_trophic\codes exemples\graph_lib_exemple_graph\grman\widget.cpp
+1522941728 source:c:\users\invite\desktop\projet_trophic\codes exemples\graph_lib_exemple_graph\grman\widget.cpp
 	"widget.h"
 
-1522847437 source:c:\users\invite\desktop\projet_trophic\codes exemples\graph_lib_exemple_graph\main.cpp
+1522926982 source:c:\users\invite\desktop\projet_trophic\codes exemples\graph_lib_exemple_graph\main.cpp
 	"grman/grman.h"
 	<iostream>
+	<conio.h>
 	"graph.h"
 
 1522767449 source:c:\users\invite\desktop\projet_trophic\codes exemples\graph_lib_exemple_graph\src\sommet.cpp

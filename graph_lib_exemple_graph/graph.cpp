@@ -1,6 +1,8 @@
 #include "graph.h"
 #include "Sommet.h"
 #include <fstream>
+#include <allegro.h>
+
 
 using namespace std;
 /***************************************************
@@ -346,23 +348,28 @@ void Graph::Afficher()
 
 void Graph::Sauvegarder_fichier(string filename )
 {
+
     /// ouverture du fichier en écriture
     std::ofstream file(filename );
 
     /// test d'ouverture de fichier
     if(file)
     {
-        cout << m_vertices.size();
-        cout << m_edges.size();
+        file << m_vertices.size() << endl;
+        file << m_edges.size()<< endl;
 
-        for(int i=0; i<m_vertices.size(); i++)    //sauvegarde de la matrice par son parcours
+        for(map<int, Vertex>::iterator it=m_vertices.begin();it!=m_vertices.end();it++)
         {
-            for(int j=0; j<m_vertices.size(); j++)
+            file<< it->first <<" "<<it->second.m_value << " "<<it->second.m_interface->m_top_box.get_posx() << " "<<it->second.m_interface->m_top_box.get_posy()<< " "<<it->second.m_interface->m_img.get_pic_name()<<endl;
+        }
+        for(int j=0; j<m_vertices.size(); j++)    //sauvegarde de la matrice par son parcours
+        {
+            for(int k=0; k<m_vertices.size(); k++)
             {
-                cout <<m_mat[i][j];
+                file <<m_mat[j][k] <<" ";
 
             }
-            cout << endl;
+            file << endl;
         }
 
         file.close();

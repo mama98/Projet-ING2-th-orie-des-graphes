@@ -144,6 +144,9 @@ class Vertex
         /// le POINTEUR sur l'interface associée, nullptr -> pas d'interface
         std::shared_ptr<VertexInterface> m_interface = nullptr;
 
+        int m_x,m_y;
+        std::string m_name;
+
         // Docu shared_ptr : https://msdn.microsoft.com/fr-fr/library/hh279669.aspx
         // La ligne précédente est en gros équivalent à la ligne suivante :
         // VertexInterface * m_interface = nullptr;
@@ -161,8 +164,8 @@ class Vertex
         /// Voir l'implémentation Graph::update dans le .cpp
         void pre_update();
         void post_update();
-        int m_x,m_y;
-        std::string m_name;
+        std::string get_pic_name();
+
 };
 
 

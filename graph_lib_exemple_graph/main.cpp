@@ -1,9 +1,11 @@
 #include "grman/grman.h"
 #include <iostream>
-
+#include <conio.h>
 #include "graph.h"
 
 using namespace std;
+
+
 int main()
 {
 
@@ -21,7 +23,6 @@ int main()
     g.Lire_fichier(fichier);
     //g.Afficher();
     //g.make_example();
-    g.Sauvegarder_fichier(nedzsk);
 
 
     /// Vous gardez la main sur la "boucle de jeu"
@@ -33,6 +34,12 @@ int main()
 
         /// Mise à jour générale (clavier/souris/buffer etc...)
         grman::mettre_a_jour();
+
+        if(KEY_S)
+        {
+            g.Sauvegarder_fichier(fichier);
+
+        }
     }
 
     grman::fermer_allegro();
