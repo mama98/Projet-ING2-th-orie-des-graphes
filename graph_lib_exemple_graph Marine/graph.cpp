@@ -220,7 +220,6 @@ void Graph ::Lire_fichier(string filename )
     /// ouverture du fichier en lecture
     ifstream fichier(filename.c_str(), ios::in);
 
-    int *temp1=nullptr;
     string image;
     int indice =0;
     int x,y;
@@ -228,15 +227,14 @@ void Graph ::Lire_fichier(string filename )
     /// test d'ouverture de fichier
     if(fichier)
     {
-        temp1= new int[m_ordre];
         m_interface = std::make_shared<GraphInterface>(50, 0, 750, 600);
         fichier>>m_ordre;  /// on lit la première valeur du fichier qui est l'ordre.
         fichier>>m_aretes;
         m_mat=allouer(m_ordre);
         for(int i=0;i<m_ordre;i++)
         {
-            fichier>> temp1[i]>>quantite>> x >> y >>image;
-            add_interfaced_vertex(temp1[i], quantite, x, y,image);
+            fichier>> indice>>quantite>> x >> y >>image;
+            add_interfaced_vertex(indice, quantite, x, y,image);
         }
         int k=0;
         for(int i=0; i< m_ordre; i++)       ///on remplit la matrice de sommets à l'aide de la matrice du fichier.
@@ -246,7 +244,7 @@ void Graph ::Lire_fichier(string filename )
                 fichier>>m_mat[i][j];
                 if(m_mat[i][j]!=0)
                 {
-                    add_interfaced_edge(k, temp1[i], temp1[j], m_mat[i][j]);
+                    add_interfaced_edge(k, i, j, m_mat[i][j]);
                     k++;
                 }
 
