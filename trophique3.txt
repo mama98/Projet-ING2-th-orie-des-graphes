@@ -1,0 +1,26 @@
+12
+22
+0 30 200 100 baleine.bmp
+1 60 400 100 orque.bmp
+2 50 200 300 cachalot.bmp
+3 0 400 300 elephant_de_mer.bmp
+4 100 600 300 leopard_des_mers.bmp
+5 0 500 300 phoque_crabier.bmp
+6 0 300 500 pingouin.bmp
+7 0 100 500 poisson.bmp
+8 0 400 100 calmar.bmp
+9 0 200 600 krill.bmp
+10 0 600 600 zooplancton.bmp
+11 0 100 100 phytoplancton.bmp
+0 1 0 0 0 0 0 0 0 1 0 0
+1 0 0 1 1 1 1 0 1 0 0 0
+0 0 0 0 0 0 0 0 1 0 0 0
+0 0 0 0 0 0 0 1 1 0 0 0
+0 0 0 0 0 0 1 1 1 0 0 0
+0 0 0 0 0 0 0 0 0 1 0 0
+0 0 0 0 0 0 0 1 1 1 1 0
+0 0 0 0 0 0 0 0 1 1 0 0
+0 0 0 0 0 0 0 0 0 0 1 0
+0 0 0 0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,176 @@
+# depslib dependency file v1.0
+1522875992 source:c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+	<fstream>
+
+1522875992 c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522792131 c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1509222372 c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1522792131 c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1522792128 c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522792129 source:c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1522792129 source:c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522792130 source:c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1522874700 source:c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1522836215 source:c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph\menu2.cpp
+	"menu2.h"
+	"graph.h"
+	<allegro.h>
+
+1522836911 c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph\menu2.h
+
+1522792129 source:c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph marine\grman\coords.cpp
+	"coords.h"
+
+1522792131 c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph marine\grman\coords.h
+	<cmath>
+
+1522792129 source:c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph marine\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522792131 c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph marine\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1509222372 c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph marine\grman\grman_couleurs.h
+
+1522945595 c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph marine\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522945673 source:c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph marine\grman\widget.cpp
+	"widget.h"
+
+1522946163 source:c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph marine\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1522946149 c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph marine\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522946647 source:c:\users\marin\desktop\projet 2 fercoq\graph_lib_exemple_graph marine\graph.cpp
+	"graph.h"
+	<fstream>
+
+1523041922 source:c:\users\invite\desktop\graph_lib_exemple_graph marine\graph.cpp
+	"graph.h"
+	<fstream>
+
+1523044242 c:\users\invite\desktop\graph_lib_exemple_graph marine\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522792131 c:\users\invite\desktop\graph_lib_exemple_graph marine\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1509222372 c:\users\invite\desktop\graph_lib_exemple_graph marine\grman\grman_couleurs.h
+
+1522792131 c:\users\invite\desktop\graph_lib_exemple_graph marine\grman\coords.h
+	<cmath>
+
+1522945595 c:\users\invite\desktop\graph_lib_exemple_graph marine\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522792129 source:c:\users\invite\desktop\graph_lib_exemple_graph marine\grman\coords.cpp
+	"coords.h"
+
+1522949105 source:c:\users\invite\desktop\graph_lib_exemple_graph marine\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522945673 source:c:\users\invite\desktop\graph_lib_exemple_graph marine\grman\widget.cpp
+	"widget.h"
+
+1523027586 source:c:\users\invite\desktop\graph_lib_exemple_graph marine\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
