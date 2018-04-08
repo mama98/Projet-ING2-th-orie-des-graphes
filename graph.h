@@ -139,6 +139,7 @@ class Vertex
 
         /// un exemple de donnée associée à l'arc, on peut en ajouter d'autres...
         double m_value;
+        int m_indice;
 
         /// le POINTEUR sur l'interface associée, nullptr -> pas d'interface
         std::shared_ptr<VertexInterface> m_interface = nullptr;
@@ -161,6 +162,8 @@ class Vertex
         void pre_update();
         void post_update();
         std::string get_pic_name();
+        int get_indice();
+        void set_indice(int indice);
 
 };
 
@@ -195,11 +198,16 @@ class EdgeInterface
         // Un label de visualisation du poids de l'arc
         grman::WidgetText m_label_weight;
 
+        grman::WidgetVSlider set_weight();
+
+        double m_weight;
+
     public :
 
         // Le constructeur met en place les éléments de l'interface
         // voir l'implémentation dans le .cpp
         EdgeInterface(Vertex& from, Vertex& to);
+
 };
 
 
@@ -212,10 +220,15 @@ class Edge
 
     private :
         /// indice du sommet de départ de l'arc
-        std::string m_from;
+        int m_from;
+
 
         /// indice du sommet d'arrivée de l'arc
-        std::string m_to;
+        int m_to;
+        int get_to();
+        int get_from();
+        int get_weight();
+
 
         /// un exemple de donnée associée à l'arc, on peut en ajouter d'autres...
         double m_weight;
@@ -236,6 +249,7 @@ class Edge
         /// Voir l'implémentation Graph::update dans le .cpp
         void pre_update();
         void post_update();
+        void set_fleches(float f);
 };
 
 
@@ -264,14 +278,26 @@ class GraphInterface
         /// Dans cette boite seront ajoutés des boutons de contrôle etc...
         grman::WidgetBox m_tool_box;
 
-         grman::WidgetButton m_delete;
-         grman::WidgetButton m_add;
+         grman::WidgetButton m_deleteA;
+         grman::WidgetButton m_addS;
+         grman::WidgetButton m_addA;
          grman::WidgetButton m_save;
          grman::WidgetButton m_exit;
-         grman::WidgetText m_text_delete;
-         grman::WidgetText m_text_add;
+         grman::WidgetButton m_deleteS;
+         grman::WidgetButton m_return;
+         grman::WidgetButton m_reinitialisation;
+         grman::WidgetButton m_evolution;
+         grman::WidgetButton m_connexe;
+         grman::WidgetText m_text_deleteA;
+         grman::WidgetText m_text_addS;
+         grman::WidgetText m_text_addA;
          grman::WidgetText m_text_save;
          grman::WidgetText m_text_exit;
+         grman::WidgetText m_text_deleteS;
+         grman::WidgetText m_text_return;
+         grman::WidgetText m_text_reinitialisation;
+         grman::WidgetText m_text_evolution;
+         grman::WidgetText m_text_connexe;
         // A compléter éventuellement par des widgets de décoration ou
         // d'édition (boutons ajouter/enlever ...)
 
@@ -317,17 +343,31 @@ class Graph
         int m_ordre;
         int m_aretes;
         int ** m_mat;
-        std::string fichier;
+        std::string m_fichier;
+        int m_nb_arcs;
+        std::vector<std::vector<int>> m_vect;
 
+         bool m_evolution=false;
         ///Programmes ajoutés Marine
         void Lire_fichier(std::string filename);
         int** allouer(int ordre);
         void Afficher();
+        void Remplir_vect();
+        void reinitialisation(std::string num);
         void Menu_afficher();
         void ajouterS();
         void Sauvegarder_fichier(std::string fichier);
         void menu();
-        std::vector<int> Forte_connexite(std::vector<int> _mat, int ordre, int s);
+        void supprimerS(int eidx);
+        void AjouterA();
+        void supprimerA();
+        void test_remove_edge(int eidx);
+        void retour();
+        void evolution();
+        void set_fleches();
+
+        std::vector<int> Forte_connexite(std::vector<std::vector<int>> m_vect, int ordre, int s);
+        std::vector<std::vector<int>> Compo_connexes(std::vector<std::vector<int>> _vect, int ordre);
 };
 
 

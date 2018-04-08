@@ -13,8 +13,8 @@ int main()
     /// Un exemple de graphe
     Graph g;
     g.menu();
-
-
+    g.Remplir_vect();
+    g.Compo_connexes(g.m_vect,g.m_ordre);
 
     /// Vous gardez la main sur la "boucle de jeu"
     /// ( contrairement à des frameworks plus avancés )
